@@ -13,11 +13,6 @@ struct FirebaseBootcampSTApp: App {
     
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
-    init() {
-        FirebaseApp.configure()
-        print("Configured Firebase!")
-    }
-    
     var body: some Scene {
         WindowGroup {
             ContentView()
